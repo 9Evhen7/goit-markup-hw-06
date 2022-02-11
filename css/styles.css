@@ -563,7 +563,7 @@ textarea {
 .footer-form {
   display: flex;
   align-items: flex-end;
-  margin-left: 93px;
+  margin-left: auto;
 }
 
 .footer-form-label {
@@ -853,8 +853,6 @@ textarea {
   text-align: center;
   letter-spacing: 0.02em;
 
-  margin-bottom: 2px;
-
   color: var(--title-text-color);
 }
 
@@ -867,7 +865,7 @@ textarea {
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
-  color: var(--title-text-color)
+  color: var(--title-text-color);
 
   margin-top: 4px;
   padding: 12px 16px;
@@ -894,6 +892,8 @@ textarea {
 
 .form-input {
   position: relative;
+
+  margin-top: 4px;
 }
 
 .form-input input:focus {
@@ -908,22 +908,22 @@ textarea {
   display: flex;
   flex-direction: column;
 
-  margin-top: 10px;
-}
-
-.form-label > span {
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
 
   color: var(--primeri-text-color);
 
-  margin-bottom: 4px;
+  margin-top: 10px;
+}
+.form-label-first {
+  margin-top: 12px;
 }
 
 .check-label {
   position: relative;
   display: flex;
+  justify-content: center;
   align-items: center;
 
   margin-top: 20px;
